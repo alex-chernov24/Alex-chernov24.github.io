@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background-color:#CDC6C6} 
+#head{color:#F8EF06}
+#story{color:#BB1518;
+text-decoration:none}
+#main{color:#BB1518;
+text-decoration:none}
+#spisok{color:#AD0C0E}
+a{text-decoration:none;color:#39E307}
+.square{width:80px;
+height:80px;
+background-color:#0ADF57;
+margin:30px 30px;
+animation-name:spin;
+animation-duration:4s; 
+animation-timeing-function:linear;
+animation-delay:1s;
+animation-Iteration-count:infinite}
+@keyframes spin{
+	0%{ transform:rotate(0deg);
+		}
+	25%{background-color:#2797DD}
+		50%{background-color:#900709}
+	100%{transform:rotate(360deg);background-color:#900709
+		}
+}
+.midle{
+background-color:#FFFFFF;
+border:doted;
+width:90%;
+margin:0px auto;
+display: block;
+padding:0px;}
+.head{background-color:#DCDCDC;
+padding:0px;
+margin:0px  auto;
+position: relative;
+margin-bottom: -67px;
+left:-100px;
+top:-10px;
+width:1500px}
+		.dws-menu *{
+ margin:0;
+ padding:0;
+}
+.dws-menu *{
+ margin:0;
+ padding:0;}
+.dws-menu > ul{display:flex;
+justify-content:center}
+.dws-menu > ul li a{display:block;
+background:#DCDCDC;
+padding:10px 30px 15px 40px;
+color:#262525;
+text-decoration:none;
+text-transform:uppercase}
+.dws-menu > ul li{position:relative;
+border-right:1px solid #000000}
+.dws-menu > ul li > a i.fa{position:absolute;
+top:10px;
+left:12px}
+.dws-menu > ul li:first-child{
+	border-left:1px solid #000000}
+	.dws-menu > ul li:last-child{
+	border-right:1px solid #000000}
+.head{background-color:#DCDCDC}
+.dws-menu li a:hover{background:#454547;
+color:#FFFFFF;
+transition:all 0.3s ease }
+.dws-menu li ul{position:absolute;
+min-width:150px;
+display:none}
+.dws-menu li>ul li{border:1px solid #000}
+.dws-menu li>ul li a{text-transformation:none;
+background:#9B9B9B }
+.dws-menu li:hover > ul{display:block}
+.head1{background-image:url('http://elitefon.ru/pic/201302/1280x1024/elitefon.ru-31085.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height:100px;
+top:10px;
+margin-top:auto;
+width:90%;
+margin:0 auto;
+display: block;
+position: relative;
+margin-bottom: -30px;
+margin-top: 15;
+height:500px;
+padding:auto;
+color:#fff;}
+#head{padding:150px}

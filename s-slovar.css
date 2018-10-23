@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#D4D4D4}
+.dws-menu *{
+ margin:0;
+ padding:0;}
+.dws-menu > ul{display:flex;
+justify-content:center}
+.dws-menu > ul li a{display:block;
+background:#DCDCDC;
+padding:10px 30px 15px 40px;
+color:#262525;
+text-decoration:none;
+text-transform:uppercase}
+.dws-menu > ul li{position:relative;
+border-right:1px solid #000000}
+.dws-menu > ul li > a i.fa{position:absolute;
+top:10px;
+left:12px}
+.dws-menu > ul li:first-child{
+	border-left:1px solid #000000}
+	.dws-menu > ul li:last-child{
+	border-right:1px solid #000000}
+.head{background-color:#DCDCDC}
+.dws-menu li a:hover{background:#454547;
+color:#FFFFFF;
+transition:all 0.3s ease }
+.dws-menu li ul{position:absolute;
+min-width:150px;
+display:none}
+.dws-menu li>ul li{border:1px solid #000}
+.dws-menu li>ul li a{text-transformation:none;
+background:#9B9B9B }
+.dws-menu li:hover > ul{display:block}
+.osnova{background-color:#FFFFFF;
+border:doted;
+width:90%;
+margin:100px auto}
